@@ -4,7 +4,7 @@ from utils import dir
 directory = f'{dir.get()}/config.json'
 variables = {
     'bar': 'decorated',
-    'colorscheme': 'tokyonightstorm',
+    'colorscheme': 'catpucinmocha',
     'terminal': 'kitty',
     'wallpaper': '~/.config/qtile/wallpapers/mini_black_hole.png',
 }

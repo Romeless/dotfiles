@@ -21,7 +21,7 @@ My personal desktop dotfiles, currently running EndeavourOS with qtile. Heavily 
 ## Installation (Arch)
 Install the requirements
 ```
-pacman -S qtile rofi kitty picom neofetch dunst scrot
+pacman -S qtile rofi kitty picom neofetch dunst
 yay -S qtile-extras-git
 ```
 
@@ -29,4 +29,13 @@ Clone and copy the repository to home
 ```
 git clone https://github.com/Romeless/dotfiles
 cp -a dotfiles/. $HOME/
+```
+
+### Install Additional Packages
+Optionally, you can install these packages for the missing features, namely:
+- Music: mpd & ncmpcpp
+- Screenshoot: scrot
+
+```
+pacman -S mpd ncmpcpp scrot
 ```

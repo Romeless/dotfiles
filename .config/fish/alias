@@ -41,3 +41,5 @@ alias shistory='history | grep'
 
 # Quickly load bashrc
 alias gogo='source ~/.bashrc'
+
+alias pacmanro='pacman -Rs $(pacman -Qtdq)'
