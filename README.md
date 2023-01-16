@@ -14,5 +14,5 @@ My personal desktop dotfiles, currently running EndeavourOS with qtile. Heavily 
 - File manager: Thunar
 - Editor: VS Code
 - Fetch: neofetch
-- [Picom (Jonaburg fork)](https://github.com/jonaburg/picom)
+- Compositor: [Picom (Jonaburg fork)](https://github.com/jonaburg/picom)
 - Colorscheme: [Catppuccin Mocha](https://github.com/catppuccin/catppuccin)
