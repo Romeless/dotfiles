@@ -25,7 +25,8 @@ pacman -S qtile rofi kitty picom neofetch dunst scrot
 yay -S qtile-extras-git
 ```
 
-Clone the repository
+Clone and copy the repository to home
 ```
 git clone https://github.com/Romeless/dotfiles
+cp -a dotfiles/. $HOME/
 ```
