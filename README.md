@@ -15,4 +15,17 @@ My personal desktop dotfiles, currently running EndeavourOS with qtile. Heavily 
 - Editor: VS Code
 - Fetch: neofetch
 - Compositor: [Picom (Jonaburg fork)](https://github.com/jonaburg/picom)
+- Music Player: mpd with ncmpcpp
 - Colorscheme: [Catppuccin Mocha](https://github.com/catppuccin/catppuccin)
+
+## Installation (Arch)
+Install the requirements
+```
+pacman -S qtile rofi kitty picom neofetch dunst scrot
+yay -S qtile-extras-git
+```
+
+Clone the repository
+```
+git clone https://github.com/Romeless/dotfiles
+```
