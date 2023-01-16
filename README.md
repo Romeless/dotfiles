@@ -10,7 +10,7 @@ My personal desktop dotfiles, currently running EndeavourOS with qtile. Heavily 
 - Launcher & Powermenu: [rofi](https://github.com/davatorium/rofi)
 - Browser: Firefox
 - Fonts: JetBrainsMono [Nerd Font](https://github.com/ryanoasis/nerd-fonts) for general text and [Font Awesome 6 Free](https://fontawesome.com/) for some bar icons. 
-- Gtk: [Catppuccin Mocha]((https://github.com/catppuccin/catppuccin)
+- Gtk: [Catppuccin Mocha](https://github.com/catppuccin/catppuccin)
 - File manager: Thunar
 - Editor: VS Code
 - Fetch: neofetch
