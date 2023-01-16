@@ -4,7 +4,7 @@ My personal desktop dotfiles, currently running EndeavourOS with qtile. Heavily 
 ## Info
 - OS: [EndeavourOS](https://endeavouros.com/)
 - WM: [qtile](https://github.com/qtile/qtile) with [qtile-extras](https://github.com/elParaguayo/qtile-extras)
-- Terminal: Kitty
+- Terminal: kitty
 - Shell: fish
 - Bar: qtile's bar
 - Launcher & Powermenu: [rofi](https://github.com/davatorium/rofi)
