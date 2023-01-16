@@ -1,4 +1,4 @@
-# Romeless' dotfiles
+# romeless' dotfiles
 My personal desktop dotfiles, currently running EndeavourOS with qtile. Heavily inspired by [dani-lp](https://github.com/dani-lp/dotfiles)'s dotfiles.
 
 ## Info
