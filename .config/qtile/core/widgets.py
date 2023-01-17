@@ -41,6 +41,8 @@ def open_pavu():
 def open_powermenu():
     qtile.cmd_spawn('' + home + '/.local/bin/power')
 
+def open_batterymenu():
+    qtile.cmd_spawn('' + home + '/.local/bin/battery_profile')
 
 def open_calendar():
     qtile.cmd_spawn('' + home + '/.local/bin/toggle_cal')
@@ -299,18 +301,20 @@ w_battery = (
         charge_char='',
         discharge_char='',
         full_char='',
-        unknown_char='',
+        unknown_char='',
         empty_char='',
         show_short_text=False,
         foreground=color['pink'],
         background=color['black'],
         fontsize=18,
+        mouse_callbacks={'Button1': open_batterymenu},
     ),
     widget.Battery(
         format='{percent:2.0%}',
         show_short_text=False,
         foreground=color['pink'],
         background=color['black'],
+        mouse_callbacks={'Button1': open_batterymenu},
     ),
     w_oval_close,
     # if with_battery
