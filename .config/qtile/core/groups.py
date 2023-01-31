@@ -54,7 +54,7 @@ workspaces = [
     {
         "name": workspace_names[7], "key": "8", 
         "matches": [
-            Match(wm_class="steam"),
+            Match(wm_class="Steam"),
             Match(wm_class="lutris"),
             Match(wm_class="Citra")
         ], 
