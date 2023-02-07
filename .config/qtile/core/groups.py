@@ -12,6 +12,7 @@ workspaces = [
     {
         "name": workspace_names[1], "key": "2",
         "matches": [
+            Match(wm_class="Mail"),
             Match(wm_class="geary"),
             Match(wm_class="ptask"),
         ],
@@ -60,9 +61,16 @@ workspaces = [
         ], 
         "lay": "bsp"
     },
+    {
+        "name": workspace_names[8], "key": "9", 
+        "matches": [
+            Match(wm_class="qbittorrent"),
+        ], 
+        "lay": "bsp"
+    },
 ]
 
-groups = [Group(i) for i in "12345"]
+groups = [Group(i) for i in "123456789"]
 
 for workspace in workspaces:
     matches = workspace["matches"] if "matches" in workspace else None
